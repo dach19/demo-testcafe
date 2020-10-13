@@ -1,0 +1,27 @@
+{
+  "debugOnFail": false,
+  "skipJsErrors": true,
+  "reporter": [
+      {
+          "name": "junit",
+          "output": "res.xml"
+      },
+      {
+          "name": "spec"
+      },
+      {
+          "name": "allure",
+          "output": "allure.txt"
+      }
+  ],
+  "selectorTimeout": 30000,
+  "assertionTimeout": 30000,
+  "pageLoadTimeout": 30000,
+  "screenshots": {
+    "takeOnFails": true,
+    "fullPage": true,
+    "path": "screenshots",
+    "pathPattern": "${DATE}_${TIME}/${FIXTURE}/${BROWSER}/${TEST}.png"
+  }
+}
+  

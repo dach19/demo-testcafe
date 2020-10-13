@@ -1,0 +1,23 @@
+{
+  "name": "flovers-testcafe-demo",
+  "version": "1.0.0",
+  "description": "This code is for Automate Testing. Using TestCafe, BrowserStack, EsLint and Jenkins",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "testcafe": "^1.8.8",
+    "testcafe-browser-provider-browserstack": "^1.13.0",
+    "testcafe-reporter-jenkins": "^1.0.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-junit": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "testcafe chrome tests/suites/"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+allure-*
+allure.txt
+res.xml
+.vscode
+screenshots/
+.DS_Store
