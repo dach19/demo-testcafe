@@ -8,10 +8,6 @@
       },
       {
           "name": "spec"
-      },
-      {
-          "name": "allure",
-          "output": "allure.txt"
       }
   ],
   "selectorTimeout": 30000,
